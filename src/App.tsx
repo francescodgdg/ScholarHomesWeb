@@ -1,5 +1,3 @@
-import './App.css'
-
 function App() {
   return (
     <div className="min-h-screen bg-white">
@@ -7,7 +5,7 @@ function App() {
       <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">S</span>
             </div>
             <span className="font-semibold text-xl text-gray-900">Scholar Homes</span>
@@ -15,7 +13,7 @@ function App() {
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-gray-600 hover:text-gray-900 transition">Features</a>
             <a href="#how-it-works" className="text-gray-600 hover:text-gray-900 transition">How It Works</a>
-            <a href="#download" className="bg-primary text-white px-5 py-2 rounded-full font-medium hover:bg-blue-600 transition">
+            <a href="#download" className="bg-blue-500 text-white px-5 py-2 rounded-full font-medium hover:bg-blue-600 transition">
               Download App
             </a>
           </div>
@@ -25,12 +23,12 @@ function App() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <div className="inline-block bg-blue-50 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div className="inline-block bg-blue-50 text-blue-500 px-4 py-2 rounded-full text-sm font-medium mb-6">
             🎓 Made for College Students
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             Find Your Perfect<br />
-            <span className="text-primary">Student Housing</span>
+            <span className="text-blue-500">Student Housing</span>
           </h1>
           <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
             The trusted marketplace for college students to find sublets, rentals, and roommates near their university. Verified .edu emails only.
@@ -79,7 +77,7 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-sm">
               <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-7 h-7 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
@@ -90,7 +88,7 @@ function App() {
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-sm">
               <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-7 h-7 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
@@ -102,7 +100,7 @@ function App() {
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-sm">
               <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-7 h-7 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
               </div>
@@ -130,7 +128,7 @@ function App() {
               { step: '4', title: 'Connect', desc: 'Message directly and seal the deal' },
             ].map((item) => (
               <div key={item.step} className="text-center">
-                <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+                <div className="w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                   {item.step}
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
@@ -142,7 +140,7 @@ function App() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 bg-primary">
+      <section className="py-20 px-6 bg-blue-500">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Find Your Next Home?
@@ -173,7 +171,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+                <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-lg">S</span>
                 </div>
                 <span className="font-semibold text-xl">Scholar Homes</span>

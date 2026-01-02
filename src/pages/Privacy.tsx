@@ -7,7 +7,7 @@ export default function Privacy() {
       <nav className="bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto px-6 py-4">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">S</span>
             </div>
             <span className="font-semibold text-xl text-gray-900">Scholar Homes</span>
@@ -84,7 +84,7 @@ export default function Privacy() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Contact Us</h2>
             <p className="text-gray-600">
               If you have any questions about this Privacy Policy, please contact us at{' '}
-              <a href="mailto:support@scholarhomes.com" className="text-primary hover:underline">
+              <a href="mailto:support@scholarhomes.com" className="text-blue-500 hover:underline">
                 support@scholarhomes.com
               </a>
             </p>
@@ -92,7 +92,7 @@ export default function Privacy() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-200">
-          <Link to="/" className="text-primary hover:underline">
+          <Link to="/" className="text-blue-500 hover:underline">
             ← Back to Home
           </Link>
         </div>
