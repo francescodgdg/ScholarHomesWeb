@@ -5,9 +5,7 @@ function App() {
       <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">S</span>
-            </div>
+            <img src="/logo.png" alt="Scholar Homes" className="w-10 h-10 rounded-lg" />
             <span className="font-semibold text-xl text-gray-900">Scholar Homes</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -171,9 +169,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">S</span>
-                </div>
+                <img src="/logo.png" alt="Scholar Homes" className="w-10 h-10 rounded-lg" />
                 <span className="font-semibold text-xl">Scholar Homes</span>
               </div>
               <p className="text-gray-400">
