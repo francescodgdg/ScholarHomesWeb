@@ -57,9 +57,11 @@ function App() {
       {/* App Preview */}
       <section className="py-16 px-6 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-200 rounded-3xl aspect-video flex items-center justify-center">
-            <span className="text-gray-500 text-lg">App Preview Image</span>
-          </div>
+          <img
+            src="/app-preview.png"
+            alt="Scholar Homes App Preview"
+            className="rounded-3xl w-full shadow-lg"
+          />
         </div>
       </section>
 
